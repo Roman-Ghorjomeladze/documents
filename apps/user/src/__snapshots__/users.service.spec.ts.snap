@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserService findByEmail should return a user with password when selectPassword is true 1`] = `
+User {
+  "createdAt": 2024-11-02T00:34:48.592Z,
+  "deletedAt": null,
+  "email": "john@doe.com",
+  "firstName": "John",
+  "id": 1,
+  "lastName": "Doe",
+  "status": "ACTIVE",
+  "updatedAt": 2024-11-02T00:34:48.592Z,
+}
+`;
+
+exports[`UserService findByEmail should return a user without password when selectPassword is false 1`] = `
+User {
+  "createdAt": 2024-11-02T00:34:48.592Z,
+  "deletedAt": null,
+  "email": "john@doe.com",
+  "firstName": "John",
+  "id": 1,
+  "lastName": "Doe",
+  "status": "ACTIVE",
+  "updatedAt": 2024-11-02T00:34:48.592Z,
+}
+`;
+
+exports[`UserService findOne should return a user when found by ID 1`] = `
+User {
+  "createdAt": 2024-11-02T00:34:48.592Z,
+  "deletedAt": null,
+  "email": "john@doe.com",
+  "firstName": "John",
+  "id": 1,
+  "lastName": "Doe",
+  "password": "123456",
+  "status": "ACTIVE",
+  "updatedAt": 2024-11-02T00:34:48.592Z,
+}
+`;

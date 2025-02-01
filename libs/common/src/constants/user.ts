@@ -1,0 +1,6 @@
+export enum UserStatuses {
+  ACTIVE = 'ACTIVE',
+  PENDING = 'PENDING',
+  REJECTED = 'REJECTED',
+  DEACTIVATED = 'DEACTIVATED',
+}

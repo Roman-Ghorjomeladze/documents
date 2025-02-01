@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthService login should return user and token if login is successful 1`] = `
+{
+  "token": "jwt-token",
+  "user": User {
+    "createdAt": 2024-11-02T00:34:48.592Z,
+    "deletedAt": null,
+    "email": "john@doe.com",
+    "firstName": "John",
+    "id": 1,
+    "lastName": "Doe",
+    "password": "123456",
+    "status": "ACTIVE",
+    "updatedAt": 2024-11-02T00:34:48.592Z,
+  },
+}
+`;
+
+exports[`AuthService me should return user information 1`] = `
+User {
+  "createdAt": 2024-11-02T00:34:48.592Z,
+  "deletedAt": null,
+  "email": "john@doe.com",
+  "firstName": "John",
+  "id": 1,
+  "lastName": "Doe",
+  "password": "123456",
+  "status": "ACTIVE",
+  "updatedAt": 2024-11-02T00:34:48.592Z,
+}
+`;
+
+exports[`AuthService register should create a new user if email is not taken 1`] = `
+User {
+  "createdAt": 2024-11-02T00:34:48.592Z,
+  "deletedAt": null,
+  "email": "john@doe.com",
+  "firstName": "John",
+  "id": 1,
+  "lastName": "Doe",
+  "password": "123456",
+  "status": "ACTIVE",
+  "updatedAt": 2024-11-02T00:34:48.592Z,
+}
+`;
